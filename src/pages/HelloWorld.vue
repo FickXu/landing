@@ -2,18 +2,21 @@
 	<div class="container">
 		<Header></Header>
 		<FullScreenAD></FullScreenAD>
+		<Notion></Notion>
 	</div>
 </template>
 
 <script>
 import Header from '../components/header';
 import FullScreenAD from '../components/full-screen-ad';
+import Notion from '../components/notion-view';
 
 export default {
 	name: "Home",
 	components: {
 		Header,
-		FullScreenAD
+		FullScreenAD,
+		Notion
 	},
 	data() {
 		return {
