@@ -1,0 +1,15 @@
+/* 背景色方案 */
+/* 阴影方案 */
+/* 字体样式方案 */
+/* 背景图片样式方案 */
+.bg-img-center {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* 弹性布局方案 */
+.layout-flex {
+  display: flex;
+}
+/* 组件设计方案 */
+@full-screen-h : calc(~'100vh - '+ @header-h);

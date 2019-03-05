@@ -1,0 +1,43 @@
+/* 背景色方案 */
+@bg-color1: #CC3333;
+@bg-color2: #CCCCCC;
+@bg-color3: #003366;
+
+/* 阴影方案 */
+@box-shadow: 0 0 5px #ffffff;
+
+/* 字体样式方案 */
+// 字体主色
+@main-color: #2c3e50;
+// 字体辅色
+@assisted-color: #ffffff;
+
+/* 背景图片样式方案 */
+// 居中，等比缩放
+.bg-img-center {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 弹性布局方案 */
+.layout-flex {
+    display: flex;
+}
+.flex-direction(@val: row) {
+    flex-direction: @val;;
+}
+.justify-content(@algin: center) {
+    justify-content: @algin;
+}
+.align-items(@algin: center) {
+    align-items: @algin;
+}
+
+/* 组件设计方案 */
+// haeader高度
+@header-h: 49px;
+// header行高
+@line-h: @header-h;
+// 第一屏满屏的高度
+@full-screen-h: calc(~'100vh - '+ @header-h);
