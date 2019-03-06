@@ -3,7 +3,8 @@
         <div class="video">
             <video src="http://player.youku.com/player.php/sid/XNDAxODQzMTA2OA==/v.swf" controls='controls' loop="loop" preload="preload"></video>
             <a href="javascript:void(0)" class="download">
-                商业计划书
+                <!-- 商业计划书 -->
+                SYJJS
             </a>
         </div>
     </div>

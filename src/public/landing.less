@@ -21,8 +21,8 @@
 }
 
 /* 弹性布局方案 */
-.layout-flex {
-    display: flex;
+.layout-flex(@val: flex) {
+    display: @val;
 }
 .flex-direction(@val: row) {
     flex-direction: @val;;

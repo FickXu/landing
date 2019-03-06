@@ -3,6 +3,8 @@
 		<Header></Header>
 		<FullScreenAD></FullScreenAD>
 		<Notion></Notion>
+		<Notion isReverse></Notion>
+		<Notion></Notion>
 	</div>
 </template>
 

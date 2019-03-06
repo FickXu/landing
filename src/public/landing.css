@@ -8,8 +8,5 @@
   background-repeat: no-repeat;
 }
 /* 弹性布局方案 */
-.layout-flex {
-  display: flex;
-}
 /* 组件设计方案 */
 @full-screen-h : calc(~'100vh - '+ @header-h);
