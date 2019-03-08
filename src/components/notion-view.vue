@@ -1,9 +1,7 @@
 <template>
     <div :class="['container', {'reverse-layout': isReverse}]">
         <div class="summary">
-            <div class="title">
-                {{data.summary.title}}
-            </div>
+            <Title :label="data.summary.title" :size="'large'"></Title>
             <div class="description">
                 {{data.summary.description}}
             </div>
@@ -20,7 +18,11 @@
 </template>
 
 <script>
+    import Title from './title.vue';
     export default {
+        components: {
+            Title
+        },
         name: '',
         props: {
             isReverse: {
@@ -114,7 +116,7 @@
             .layout-flex;
             .justify-content;
             >div {
-                width: 90%;
+                width: 87%;
                 height: 75%;
                 .layout-flex(inline-flex);
                 flex-wrap: wrap;
