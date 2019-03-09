@@ -9,23 +9,23 @@
 </template>
 
 <script>
-import Header from '../components/header';
-import FullScreenAD from '../components/full-screen-ad';
-import Notion from '../components/notion-view';
+import Header from '../components/header'
+import FullScreenAD from '../components/full-screen-ad'
+import Notion from '../components/notion-view'
 
 export default {
-	name: "Home",
+	name: 'Home',
 	components: {
 		Header,
 		FullScreenAD,
 		Notion
 	},
-	data() {
+	data () {
 		return {
-			msg: ""
-		};
+			msg: ''
+		}
 	}
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

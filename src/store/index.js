@@ -8,10 +8,10 @@ import * as mutations from './mutation.js'
 console.log('store/index.js>>>>', mutations)
 
 const state = {
-    loginUser: {}
+	loginUser: {}
 }
 export default new Vuex.Store({
-    state,
-    actions: actions,
-    mutations: mutations.default,
+	state,
+	actions: actions,
+	mutations: mutations.default
 })

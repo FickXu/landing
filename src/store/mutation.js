@@ -1,10 +1,10 @@
 const mutations = {
-    getUser(state, user) {
-        state.loginUser = user;
-    },
-    setUser(state, user) {
-        state.loginUser = user;
-    }
+	getUser (state, user) {
+		state.loginUser = user
+	},
+	setUser (state, user) {
+		state.loginUser = user
+	}
 }
 
-export default mutations;
+export default mutations
