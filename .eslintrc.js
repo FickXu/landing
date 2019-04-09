@@ -21,10 +21,12 @@ module.exports = {
 		'generator-star-spacing': 'off',
 		// allow debugger during development
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+		// disallow the use of console (no-console)
+		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		// enforce consistent indentation
 		"indent": ["error", "tab"],
 		// 函数定义时括号前不要有空格
-		// 'space-before-function-paren': [0, 'always']
+		'space-before-function-paren': ['error', 'never'],
 		// 当存在更简单的替代方案时，不允许三元运算符（此项默认开启，为0关闭）。
 		'no-unneeded-ternary': 0
 	}

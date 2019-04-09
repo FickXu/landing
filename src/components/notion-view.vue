@@ -27,13 +27,13 @@
 		props: {
 			isReverse: {
 				type: Boolean,
-				default: function (val) {
+				default: function(val) {
 					return val ? true : false
 				}
 			},
 			data: {
 				type: Object,
-				default: function () {
+				default: function() {
 					return {
 						summary: {
 							title: 'Innomation赋能创业者',
@@ -69,7 +69,7 @@
 				}
 			}
 		},
-		data () {
+		data() {
 			return {
 			}
 		}

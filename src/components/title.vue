@@ -16,18 +16,18 @@
 		props: {
 			label: {
 				type: String,
-				default: function (val) {
+				default: function(val) {
 					return val ? val : '未设置Title'
 				}
 			},
 			size: {
 				type: String,
-				default: function (val) {
+				default: function(val) {
 					return (val === 'middle' || val === 'large') ? val : 'small'
 				}
 			}
 		},
-		data () {
+		data() {
 			return {
 			}
 		}

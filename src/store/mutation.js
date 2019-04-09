@@ -1,8 +1,8 @@
 const mutations = {
-	getUser (state, user) {
+	getUser(state, user) {
 		state.loginUser = user
 	},
-	setUser (state, user) {
+	setUser(state, user) {
 		state.loginUser = user
 	}
 }

@@ -20,7 +20,7 @@ export default {
 		FullScreenAD,
 		Notion
 	},
-	data () {
+	data() {
 		return {
 			msg: ''
 		}
